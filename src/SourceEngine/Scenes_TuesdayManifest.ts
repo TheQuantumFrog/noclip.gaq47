@@ -121,27 +121,27 @@ const id = 'TuesdayManifest';
 const name = 'Tuesday Manifest';
 const sceneDescs = [
     "Team Fortress 2",
-    new TeamFortress2SceneDesc('data'),
-    new TeamFortress2SceneDesc('data2'),
-    new TeamFortress2SceneDesc('data3'),
-    new TeamFortress2SceneDesc('data4'),
-    new TeamFortress2SceneDesc('data5'),
-    new TeamFortress2SceneDesc('data6'),
-    new TeamFortress2SceneDesc('data7'),
+    new TeamFortress2SceneDesc('tf_data'),
+    new TeamFortress2SceneDesc('tf_data2'),
+    new TeamFortress2SceneDesc('tf_data3'),
+    new TeamFortress2SceneDesc('tf_data4'),
+    new TeamFortress2SceneDesc('tf_data5'),
+    new TeamFortress2SceneDesc('tf_data6'),
+    new TeamFortress2SceneDesc('tf_data7'),
     "Half Life 2",
-    new HalfLife2SceneDesc('data'),
+    new HalfLife2SceneDesc('hl2_data'),
     
     "Half Life 2: Episode 2",
-    new HalfLife2Ep2SceneDesc('data'),
-    new HalfLife2Ep2SceneDesc('data2'),
+    new HalfLife2Ep2SceneDesc('ep2_data'),
+    new HalfLife2Ep2SceneDesc('ep2_data2'),
     
     "Counter Strike: Global Offense",
-    new CounterStrikeGOSceneDesc('data'),
-    new CounterStrikeGOSceneDesc('data2'),
-    new CounterStrikeGOSceneDesc('data3'),
+    new CounterStrikeGOSceneDesc('csgo_data'),
+    new CounterStrikeGOSceneDesc('csgo_data2'),
+    new CounterStrikeGOSceneDesc('csgo_data3'),
     
     "Day of Defeat",
-    new DayOfDefeatSceneDesc('data'),
+    new DayOfDefeatSceneDesc('dod_data'),
 
     "Source Filmaker",
 
