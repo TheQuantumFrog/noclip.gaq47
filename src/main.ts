@@ -62,6 +62,7 @@ import * as Scenes_GoldenEye007 from './GoldenEye007/Scenes_GoldenEye007.js';
 import * as Scenes_BanjoTooie from './BanjoTooie/scenes.js';
 import * as Scenes_SunshineWater from './InteractiveExamples/SunshineWater.js';
 import * as Scenes_CGE from './SourceEngine/Scenes_CGE.js';
+import * as Scenes_TuesdayManifest from './SourceEngine/Scenes_TuesdayManifest.js';
 import * as Scenes_CounterStrikeSource from './SourceEngine/Scenes_CounterStrikeSource.js';
 import * as Scenes_CounterStrikeGO from './SourceEngine/Scenes_CounterStrikeGO.js';
 import * as Scenes_HalfLife2 from './SourceEngine/Scenes_HalfLife2.js';
@@ -182,8 +183,9 @@ const sceneGroups: (string | SceneGroup)[] = [
     // Scenes_SpongeBobBFBB.sceneGroup,
     // Scenes_SpongeBobTSSM.sceneGroup,
     "Anomi",
+    Scenes_TuesdayManifest.sceneGroup,
     Scenes_CGE.sceneGroup,
-    "PC",
+    // "PC",
     // Scenes_DarkSouls.sceneGroup,
     // Scenes_DarkSoulsCollision.sceneGroup,
     // Scenes_Fez.sceneGroup,
